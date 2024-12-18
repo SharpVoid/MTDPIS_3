@@ -1,0 +1,495 @@
+*{transition:.3s linear;}
+body {
+  margin: 0;
+  background: #F0F0F0;
+  font-family: cambria;
+  color: #240152;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {flex: 1;}
+header {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #6F06CC;
+  color: white;
+}
+.content-wrap {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: white;
+}
+aside {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: white;
+  border: 2px solid #FF9100;
+}
+footer {
+  height: 900px;
+  width: 1905px;
+  background: #161515;
+}
+.logo-png {
+  margin-left: 100px;
+  margin-top: 235px;
+  position: absolute;
+}
+
+.logo-caption {
+  color: #72727c;
+  font-family: candara;
+  margin-top: 45px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+  position: relative;
+  margin-right: 1500px
+}
+
+.adres {
+  color: #72727c;
+  font-family: candara;
+  margin-top: 45px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.2;
+  position: relative;
+  margin-right: 1600px
+}
+
+.adres-dop {
+  color: #fff;
+  font-family: candara;
+  margin-top: 15px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.2;
+  position: relative;
+  margin-right: 1470px
+}
+
+.phone {
+  color: #72727c;
+  font-family: candara;
+  margin-top: 45px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.2;
+  position: relative;
+  margin-right: 1600px
+}
+
+.phone-dop {
+  color: #fff;
+  font-family: candara;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+  position: relative;
+  margin-right: 1400px
+}
+
+@media (min-width:768px) {
+  .main-content {display: flex;}
+  .content-wrap {
+    width: calc(100% - 300px);
+    margin-right: 20px;
+  }
+  aside {width: 300px;}
+}
+
+.container1 {
+  display: flex;
+  margin-left: 150px
+}
+
+.fc-loko {
+  color: #fff;
+  margin-left: 600px;
+  margin-top: 235px;
+  font-size: 24px;
+  font-family: Bahnschrift Condensed;
+}
+
+.news {
+ color: #72727c;
+  margin-left: 600px;
+  margin-top: 40px;
+  font-family: candara;
+   font-size: 16px
+}
+
+.calendar {
+  color: #72727c;
+  margin-left: 600px;
+  margin-top: 15px;
+  font-family: candara;
+   font-size: 16px
+}
+
+.table {
+  color: #72727c;
+  margin-left: 600px;
+  margin-top: 15px;
+  font-family: candara;
+   font-size: 16px
+}
+
+.igroki {
+  color: #72727c;
+  margin-left: 600px;
+  margin-top: 15px;
+  font-family: candara;
+   font-size: 16px
+}
+
+.trener {
+  color: #72727c;
+  margin-left: 600px;
+  margin-top: 15px;
+  font-family: candara;
+   font-size: 16px
+}
+
+.media {
+  color: #72727c;
+  margin-left: 600px;
+  margin-top: 15px;
+  font-family: candara;
+  font-size: 16px
+}
+
+.photo {
+  color: #72727c;
+  margin-left: 600px;
+  margin-top: 15px;
+  font-family: candara;
+  font-size: 16px
+}
+
+.programma {
+  color: #72727c;
+  margin-left: 600px;
+  margin-top: 15px;
+  font-family: candara;
+  font-size: 16px
+}
+
+.corryp {
+   color: #72727c;
+  margin-left: 600px;
+  margin-top: 15px;
+  font-family: candara;
+  font-size: 16px;
+  margin-right: 1500px;
+  line-height: 1;
+}
+
+.bilet {
+  color: #fff;
+  margin-left: 870px;
+  margin-top: 235px;
+  font-size: 24px;
+  font-family: Bahnschrift Condensed;
+  position: relative;
+}
+
+.container2 {
+  position: absolute
+}
+
+.raspis {
+  color: #72727c;
+  margin-left: 870px;
+  margin-top: 40px;
+  font-family: candara;
+  font-size: 16px;
+
+}
+
+.vip {
+  color: #72727c;
+  margin-left: 870px;
+  margin-top: 15px;
+  font-family: candara;
+  font-size: 16px;
+}
+
+.oferta {
+  color: #72727c;
+  margin-left: 870px;
+  margin-top: 15px;
+  font-family: candara;
+  font-size: 16px;
+}
+
+.vernut {
+  color: #72727c;
+  margin-left: 870px;
+  margin-top: 15px;
+  font-family: candara;
+  font-size: 16px;
+}
+
+.container3 {
+  position: absolute
+}
+
+.magazin {
+  color: #fff;
+  margin-left: 1140px;
+  margin-top: 235px;
+  font-size: 24px;
+  font-family: Bahnschrift Condensed;
+  position: relative;
+}
+
+.rezgim {
+  color: #72727c;
+  margin-left: 1140px;
+  margin-top: 40px;
+  font-family: candara;
+  font-size: 16px;
+}
+
+.dostavka {
+  color: #72727c;
+  margin-left: 1140px;
+  margin-top: 15px;
+  font-family: candara;
+  font-size: 16px;
+}
+
+.oplata {
+  color: #72727c;
+  margin-left: 1140px;
+  margin-top: 15px;
+  font-family: candara;
+  font-size: 16px;
+}
+
+.garant {
+  color: #72727c;
+  margin-left: 1140px;
+  margin-top: 15px;
+  font-family: candara;
+  font-size: 16px;
+}
+
+.uslov {
+  color: #72727c;
+  margin-left: 1140px;
+  margin-top: 15px;
+  font-family: candara;
+  font-size: 16px;
+  margin-right: 470px;
+  line-height: 1;
+}
+
+.confid {
+  color: #72727c;
+  margin-left: 1140px;
+  margin-top: 15px;
+  font-family: candara;
+  font-size: 16px;
+}
+
+.inform-prod {
+  color: #72727c;
+  margin-left: 1140px;
+  margin-top: 15px;
+  font-family: candara;
+  font-size: 16px;
+}
+
+.public-off {
+  color: #72727c;
+  margin-left: 1140px;
+  margin-top: 15px;
+  font-family: candara;
+  font-size: 16px;
+}
+
+.container4 {
+  position: absolute
+}
+
+.container5 {
+  position: absolute
+  
+}
+.club {
+  color: #fff;
+  margin-left: 1410px;
+  margin-top: 235px;
+  font-size: 24px;
+  font-family: Bahnschrift Condensed;
+  position: relative;
+}
+
+.o-club {
+  color: #72727c;
+  margin-left: 1410px;
+  margin-top: 40px;
+  font-family: candara;
+  font-size: 16px;
+}
+
+.JFC {
+  color: #72727c;
+  margin-left: 1410px;
+  margin-top: 15px;
+  font-family: candara;
+  font-size: 16px;
+}
+
+.molodej-un {
+  color: #72727c;
+  margin-left: 1410px;
+  margin-top: 15px;
+  font-family: candara;
+  font-size: 16px;
+}
+
+.molodej-dev {
+  color: #72727c;
+  margin-left: 1410px;
+  margin-top: 15px;
+  font-family: candara;
+  font-size: 16px;
+}
+
+.UFL-1-un {
+  color: #72727c;
+  margin-left: 1410px;
+  margin-top: 15px;
+  font-family: candara;
+  font-size: 16px;
+}
+
+.UFL-2-un {
+  color: #72727c;
+  margin-left: 1410px;
+  margin-top: 15px;
+  font-family: candara;
+  font-size: 16px;
+}
+
+.UFL-3-un {
+  color: #72727c;
+  margin-left: 1410px;
+  margin-top: 15px;
+  font-family: candara;
+  font-size: 16px;
+}
+
+.UFL-1-dev {
+  color: #72727c;
+  margin-left: 1410px;
+  margin-top: 15px;
+  font-family: candara;
+  font-size: 16px;
+}
+
+.UFL-2-dev {
+  color: #72727c;
+  margin-left: 1410px;
+  margin-top: 15px;
+  font-family: candara;
+  font-size: 16px;
+}
+
+.UFL-3-dev {
+  color: #72727c;
+  margin-left: 1410px;
+  margin-top: 15px;
+  font-family: candara;
+  font-size: 16px;
+}
+
+.academy {
+  color: #72727c;
+  margin-left: 1410px;
+  margin-top: 15px;
+  font-family: candara;
+  font-size: 16px;
+}
+
+.sponsor {
+  color: #72727c;
+  margin-left: 1410px;
+  margin-top: 15px;
+  font-family: candara;
+  font-size: 16px;
+}
+
+.history {
+  color: #72727c;
+  margin-left: 1410px;
+  margin-top: 15px;
+  font-family: candara;
+  font-size: 16px;
+}
+
+.contacts {
+  color: #72727c;
+  margin-left: 1410px;
+  margin-top: 15px;
+  font-family: candara;
+  font-size: 16px;
+}
+
+.niz {
+  color: #72727c;
+  margin-left: 100px;
+  margin-top: 75px;
+  font-family: candara;
+  font-size: 16px;
+  margin-right: 1000px;
+}
+
+.container7 {
+  display: flex
+}
+
+.vk {
+  position: absolute;
+  margin-left: 1360px;
+  margin-top: 80px
+}
+
+.tg {
+  position: absolute;
+  margin-left: 1405px;
+  margin-top: 80px
+}
+
+.rut {
+  position: absolute;
+  margin-left: 1450px;
+  margin-top: 80px
+}
+
+.yout {
+  position: absolute;
+  margin-left: 1495px;
+  margin-top: 80px
+}
+
+.odnk {
+  position: absolute;
+  margin-left: 1540px;
+  margin-top: 80px
+}
+
+
